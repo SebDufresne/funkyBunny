@@ -1,10 +1,7 @@
-describe('generateCoords', function() {
-  it('should add class to element', function() {
-    let element = { className: '' };
-
-    addClass(element, 'test-class');
-
-    assert.equal(element.className, 'test-class');
+describe(`generateCoords`, function() {
+  it(`returns ['00','01','10','11'] if passed 2`, function() {
+    const seed = 2;
+    const expect = ['00','01','10','11'];
+    assert.deepEqual(generateCoords(2),['00','01','10','11']);
   });
-
 });
