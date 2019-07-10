@@ -1,14 +1,11 @@
 const assert = chai.assert;
 
-describe(`generateCoordsArray`, function() {
+describe(`#generateCoordsArray`, function() {
   it(`returns ['00','01','10','11'] if passed 2`, function() {
     const maxValue = 2;
     const expected = ['00','01','10','11'];
     assert.deepEqual(generateCoordsArray(maxValue),expected);
   });
-});
-
-describe(`generateCoordsArray`, function() {
   it(`returns ['00','01','10','11'] if passed nothing`, function() {
     const expected =  [
       '00','01','02','03','04','05','06','07','08','09',
@@ -23,5 +20,17 @@ describe(`generateCoordsArray`, function() {
       '90','91','92','93','94','95','96','97','98','99',
     ];
     assert.deepEqual(generateCoordsArray(),expected);
+  });
+});
+
+describe(`#convertDecToHex`, function() {
+  it(`returns '0' if passed 0`, function() {
+    assert.strictEqual(convertDecToHex(0),'0');
+  });
+  it(`returns 'A' if passed 10`, function() {
+    assert.strictEqual(convertDecToHex(10),'A');
+  });
+  it(`returns 'F' if passed 15`, function() {
+    assert.strictEqual(convertDecToHex(15),'F');
   });
 });
