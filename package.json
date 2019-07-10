@@ -1,0 +1,19 @@
+{
+  "name": "funkybunny",
+  "version": "1.0.0",
+  "description": "A game based on Battleship, made as a project for Lighthouse Labs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebDufresne/funkyBunny.git"
+  },
+  "author": "Sebastien Dufresne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebDufresne/funkyBunny/issues"
+  },
+  "homepage": "https://github.com/SebDufresne/funkyBunny#readme"
+}
