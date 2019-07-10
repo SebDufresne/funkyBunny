@@ -1,3 +1,10 @@
 describe('generateCoords', function() {
-// Fill function
+  it('should add class to element', function() {
+    let element = { className: '' };
+
+    addClass(element, 'test-class');
+
+    assert.equal(element.className, 'test-class');
+  });
+
 });

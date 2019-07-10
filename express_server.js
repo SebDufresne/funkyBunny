@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.render('play');
 });
 
+app.get('/test', (req, res) => {
+  res.render('test');
+});
+
 app.listen(PORT, () => {
   console.log(`funkyBunny listening on port ${PORT}!`);
 });
