@@ -4,7 +4,8 @@
   "description": "A game based on Battleship, made as a project for Lighthouse Labs.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "./node_modules/.bin/nodemon -L express_server.js",
   },
   "repository": {
     "type": "git",
