@@ -1,4 +1,4 @@
-// Return a string of two Hexadecimals value
+// Return an array of sets of coords in HexaDecimal, based on a given maxValue
 const generateCoords = maxValue => {
 
 };
