@@ -183,3 +183,12 @@ Just completed a first draft of the layout. I pretty much had the structure plan
 On a side note, I've decided to take my time and enjoy this project, so I might revisit the idea of including extra stretch goals I had set aside.
 
 !['Layout first draft'](https://github.com/SebDufresne/funkyBunny/blob/master/docs/planning/layout-2019-08-02.png)
+
+### Laundromat coding - 2019-08-03
+
+#### (09h32)
+
+Putting the final touches to the defaults settings and gameState object. Most of it was thought of months ago, but still feels like the directory structure could/should be improved on. That's a minor refactoring I'll push down the road, once there's more code, it'll be easier to see how to structure it. Also of consideration, I'm designing from the ground up for multiple Ai support and multiple players, but at this point, I haven't planned to design for various AI levels simultaneously. Well, now that I've thought about it, may very well do, we'll see, if this happens, if I do, it'll be in the gameState structure.
+
+I've also decided to store the "Hits" values in two different formats. I was concerned for data duplication, but the needs are so different that it seems like the best way to do it. Basically, I'll create a matrix for the AI, it'll greatly simplify the "search for the best move" process. I won't, however, go as deep as to calculate a presence ratio for each possible outcome, though I'll keep that idea in the back of my mind, could be an extension of hard. (Let's say you hit a square in the middle of the garden Is there even a ratio of probability for the presence of a carrot, or is it 25% for each direction? That ratio could definitely be influenced by the remaining carrots, but... Anyhow, we'll put more thought into that once everything else has been done.)
+
