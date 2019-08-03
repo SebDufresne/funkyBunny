@@ -212,11 +212,3 @@ const generateMatrix = (boardSize = 10) => {
 ```
 
 But kept on encountering issues when filling the array with undefined values, so I'll fill the matrix with empty strings instead, they'll evaluate to falsy anyway, so it should be good enough for what I had in mind.
-
-While I'm on the subject, might as well bring this odd decision I made as port of the gameState object:
-
-```javascript
- gridPositions: [], // { playerId, coords: ['coords', 'coords', ...]}
-```
-
-Basically, the idea, has it is now, would be to only store a set of all coordinates where the player has carrots chunks. A validation would be made prior to insertion based on the roster, to test for overlapping and the sorts. I'll definitely have to re-evaluate this approach during a later stage of development, for I may very well want to know which coordinate belongs to which element of the roster, but I feel the way I've coded it, for the moment, should be able to take me quite far in the development process and will only require basic refactoring to expand in order to accommodate further needs.
