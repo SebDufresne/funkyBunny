@@ -8,7 +8,7 @@ const defaults = {
   boardSize : 10,
   numberOfAi: 1,
   numberOfPlayers: 2,
-  roaster: { // {size: quantity}
+  roster: { // {size: quantity}
     2: 1,
     3: 2,
     4: 1,
@@ -20,10 +20,11 @@ const defaults = {
 // NOTE: I'll revisit the undefined declarations during implementation
 const gameState = {
   boardSize: undefined,
+  gridPositions: [], // { playerId, coords: ['coords', 'coords', ...]}
   hitMatrix: [], // see generateMatrix in ai.js
   movesHistory: [], // [{playerId, position}, ...]
-  players: [], // { {playerId: playerType } (The player type being aiLevel or human/being)
-  roaster: {},
+  players: [], // { playerId, playerType } (The player type being aiLevel or human/being)
+  roster: {},
   shotsPerTurn: undefined,
 };
 

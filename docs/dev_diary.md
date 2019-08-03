@@ -28,6 +28,10 @@
 
 - [Whiteboarding It - (2019-08-03 - 02h30)](#whiteboarding-it---2019-08-03)
 
+- [Laundromat coding - (2019-08-03 - 09h30)](#laundromat-coding---2019-08-03)
+
+Laundromat coding - 2019-08-03
+
 ## The Project
 
 ### Why Funky Bunny
@@ -162,7 +166,7 @@ At this point, although I know the overall flow of the whole project, there's st
 
 Here's a list of what I'd like to accomplish tonight.
 
-- [ ] Build the "global object", which will entail all the game settings, including a set of default values. (5 minutes planning, 5 minutes Unit Testing, 5 minutes building)
+- [X] Build the "global object", which will entail all the game settings, including a set of default values. (5 minutes planning, 5 minutes Unit Testing, 5 minutes building) (took 21 minutes)
 
 - [ ] Use the global object values of grid size and number of players to build grids on the webpage with unique ids for each cell, based on the player and coords (ex: p1-03) (30 minutes for the grid, 10 minutes for the ids, 15 minutes refactoring)
 
@@ -192,3 +196,7 @@ Putting the final touches to the defaults settings and gameState object. Most of
 
 I've also decided to store the "Hits" values in two different formats. I was concerned for data duplication, but the needs are so different that it seems like the best way to do it. Basically, I'll create a matrix for the AI, it'll greatly simplify the "search for the best move" process. I won't, however, go as deep as to calculate a presence ratio for each possible outcome, though I'll keep that idea in the back of my mind, could be an extension of hard. (Let's say you hit a square in the middle of the garden Is there even a ratio of probability for the presence of a carrot, or is it 25% for each direction? That ratio could definitely be influenced by the remaining carrots, but... Anyhow, we'll put more thought into that once everything else has been done.)
 
+This new way of doing the AI creates the need for
+
+- [ ] generateMatrix Unit Tests
+- [ ] generateMatrix
