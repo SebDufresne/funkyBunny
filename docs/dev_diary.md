@@ -198,5 +198,17 @@ I've also decided to store the "Hits" values in two different formats. I was con
 
 This new way of doing the AI creates the need for
 
-- [X] generateMatrix Unit Tests
-- [ ] generateMatrix
+- [X] generateMatrix Unit Tests (5 minutes)
+- [X] generateMatrix (5 minutes)
+
+I had in mind to do it with something like:
+
+```javascript
+const generateMatrix = (boardSize = 10) => {
+  const matrixRow = new Array(boardSize);
+  const matrixGrid = new Array(boardSize).fill(matrixRow);
+  return matrixGrid;
+};
+```
+
+But kept on encountering issues when filling the array with undefined values, so I'll fill the matrix with empty strings instead, they'll evaluate to falsy anyway, so it should be good enough for what I had in mind.
