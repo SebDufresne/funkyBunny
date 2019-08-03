@@ -198,5 +198,5 @@ I've also decided to store the "Hits" values in two different formats. I was con
 
 This new way of doing the AI creates the need for
 
-- [ ] generateMatrix Unit Tests
+- [X] generateMatrix Unit Tests
 - [ ] generateMatrix

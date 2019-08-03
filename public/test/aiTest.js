@@ -6,8 +6,11 @@ describe(`#generateMatrix`, function() {
     assert.deepEqual(generateMatrix(),output);
   });
   it(`returns [[,],[,]] if passed 2`, function() {
-    const output = [[,],
-                    [,]];
-    assert.deepEqual(generateMatrix(),output);
+    const output = [[,],[,]];
+    assert.deepEqual(generateMatrix(2),output);
+  });
+  it(`returns [[,,],[,,],[,,]] if passed 3`, function() {
+    const output = [[,,],[,,],[,,]];
+    assert.deepEqual(generateMatrix(3),output);
   });
 });
