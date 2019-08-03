@@ -114,3 +114,17 @@ The AI as also been conceived, in my mind, with 3 different difficulty levels:
 This developer diary will take way longer than I would've wanted to, but it might very well be, to me, the best part of this project.
 
 At this point, although I know the general flow of the whole project, there's still one aspect that I haven't been able to solve. The carrot placements. There's a few approach to it, but the thing is, I'd LOVE to be able to to it as dragable objects, but then, I have to make sure we can select them both as horizontal or vertical variations, that changes the UI interface a bit and has to be taken into consideration. Many ideas were brought forth, among them, a slider to control the orientation of the carrots and therefore load a specific sets of carrots, That seems like the most promising approach, but I'm a bit afraid that if I don't read on ways to interact with object, I might have to do some major overhaul of aspects of the projects. That being said, I will still do everthing up to that point, by using a static object to give the carrots position. At that point, peraphs, there'll be new ideas that'll come my way, or I'll have decided that enough time was spent on the project. In the end, the only reason for it to exist is to learn.
+
+
+### Tonights work (2019-08-02 23h20)
+
+Here's a list of what I'd like to accomplish tonight.
+
+Build the "gobal object", which will entail all the game settings, including a set of default values. (5 minutes planning, 5 minutes Unit Testing, 5 minutes building)
+
+Use the global oject values of grid size and number of players to build grids on the webpage with unique ids for each cells, based on the player and coords (ex: p1-03) (30 minutes for the grid, 10 minutes for the ids, 15 minutes refactoring)
+
+Adding to the global object the strategy for ship storage, hit tracking and game progression (20 minutes planning, 5 minutes Unit testing(?), 10 minutes bulding) (I'll put more time into planning it since parts of it will dirrectly affect the AI behaviours, if the planning is done properly, doing the advanced AI will be incredibly simple)
+
+Nice to do:
+Building and Testing the event handlers to make sure I receive the coords selected on the grid, in the "click" event. (15 to 25 minutes, depending on how extensive the testing is)
