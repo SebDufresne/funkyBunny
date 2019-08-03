@@ -83,9 +83,9 @@ _The following is a summary of Lighthouse Labs Curriculum_
 
 - Allow the player to set up options before starting the game
 
-- Number of ships
-- Number of shots per turn
-- Board size
+  - Number of ships
+  - Number of shots per turn
+  - Board size
 
 - Allow the user to pick the difficulty of the AI player.
 
