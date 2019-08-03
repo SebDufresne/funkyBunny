@@ -182,4 +182,4 @@ Just completed a first draft of the layout. I pretty much had the structure plan
 
 On a side note, I've decided to take my time and enjoy this project, so I might revisit the idea of including extra stretch goals I had set aside.
 
-!['Layout first draft'](https://github.com/SebDufresne/funkyBunny/blob/master/docs/layout-2019-08-02.png)
+!['Layout first draft'](https://github.com/SebDufresne/funkyBunny/blob/master/docs/planning/layout-2019-08-02.png)
