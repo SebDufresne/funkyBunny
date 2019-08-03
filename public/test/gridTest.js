@@ -6,7 +6,8 @@ describe(`#generateCoordsArray`, function() {
     const expected = ['00','01','10','11'];
     assert.deepEqual(generateCoordsArray(maxValue),expected);
   });
-  it(`returns ['00','01','10','11'] if passed nothing`, function() {
+
+  it(`returns ['00','01','10','11',..., [99]] if passed nothing`, function() {
     const expected =  [
       '00','01','02','03','04','05','06','07','08','09',
       '10','11','12','13','14','15','16','17','18','19',

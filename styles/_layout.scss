@@ -1,0 +1,14 @@
+// See: https://sass-lang.com/
+
+body {
+  background-color: $color-primary-green;
+
+  main {
+    padding-top: $navigation-height;
+    padding-bottom: $navigation-height;
+  }
+  h1, h2 {
+    color: #244751;
+    font-family: $font-titles;
+  }
+}
