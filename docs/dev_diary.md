@@ -170,7 +170,7 @@ Here's a list of what I'd like to accomplish tonight.
 
 - [ ] Use the global object values of grid size and number of players to build grids on the webpage with unique ids for each cell, based on the player and coords (ex: p1-03) (30 minutes for the grid, 10 minutes for the ids, 15 minutes refactoring)
 
-- [ ] Adding to the global object the strategy for carrot storage, hit tracking and game progression (20 minutes planning, 5 minutes Unit testing(?), 10 minutes building) (I'll put more time into planning it since parts of it will directly affect the AI behaviours, if the planning is done properly, doing the advanced AI will be incredibly simple)
+- [X] Adding to the global object the strategy for carrot storage, hit tracking and game progression (20 minutes planning, 5 minutes Unit testing(?), 10 minutes building) (I'll put more time into planning it since parts of it will directly affect the AI behaviours, if the planning is done properly, doing the advanced AI will be incredibly simple)
 
 Nice to do:
 
