@@ -20,7 +20,8 @@ const defaults = {
 // NOTE: I'll revisit the undefined declarations during implementation
 const gameState = {
   boardSize: undefined,
-  gridPositions: [], // { playerId, coords: ['coords', 'coords', ...]}
+  conflicts: {}, // {playerId, activeConflict: []}
+  gridPositions: [], // { playerId, [ {carrot, coords: ['coords', 'coords', ...]}]}
   hitMatrix: [], // see generateMatrix in ai.js
   movesHistory: [], // [{playerId, position}, ...]
   players: [], // { playerId, playerType } (The player type being aiLevel or human/being)
@@ -28,7 +29,18 @@ const gameState = {
   shotsPerTurn: undefined,
 };
 
+// Used to save the final state of a game
+const saveGame = {
+  boardSize: undefined,
+  gridPositions: [],
+  movesHistory: [],
+  players: [],
+  roster: {},
+  shotsPerTurn: undefined,
+};
+
 module.exports = {
   defaults,
-  gameState
+  gameState,
+  saveGame
 };
